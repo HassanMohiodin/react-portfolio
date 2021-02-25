@@ -14,6 +14,7 @@ class Page extends react.Component {
             <div>
                 <SmallCover/>
                 <div className="page-container"></div>
+                <h1>Projects Lists</h1>
             </div>
         )
     }

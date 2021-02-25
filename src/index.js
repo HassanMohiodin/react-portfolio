@@ -6,11 +6,11 @@ import Layout from './layout/layout';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <React.StrictMode>
-      <Layout />
-    </React.StrictMode>
-  </BrowserRouter>,
+    <BrowserRouter>
+      <React.StrictMode>
+        <Layout />
+      </React.StrictMode>
+    </BrowserRouter>,
   document.getElementById('root')
 );
 

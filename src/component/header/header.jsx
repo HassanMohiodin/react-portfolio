@@ -9,7 +9,7 @@ function Header (props) {
                 <div className="topnav" id="myTopnav">
                     <Link to='/'>
                         <div>
-                        <a href="#home" className="active">Home</a>
+                        <a href="#home">Home</a>
                         </div>
                     </Link>
                     <Link to='/projects'>
@@ -19,9 +19,6 @@ function Header (props) {
                     </Link>
                     <Link to="/tag">    
                         <a href="#contact">Tag</a>
-                    </Link>
-                    <Link>
-                        <a href="#about">About</a>
                     </Link>
                     <a href="javascript:void(0);" className="icon" onclick="myFunction()">
                         <i className="fa fa-bars"></i>

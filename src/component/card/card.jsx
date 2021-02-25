@@ -6,9 +6,19 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 import './card.css';
 
-function Card ({label, cardText, footerText, time, imageUrl}) {
+function Card ({id, label, cardText, footerText, time, imageUrl}) {
     return (
-        <Link to='/projects' className="link-style">
+        <Link to={{
+                pathname: `/${id}`,
+                state: {
+                    id,
+                    label, 
+                    cardText,
+                    footerText,
+                    time,
+                    imageUrl
+                }
+            }}  className="link-style">
             <div className="card-container">
                 <div className="poster-image" style={{ backgroundImage: `url(${imageUrl})`}}></div> 
                 <h2 className="card-label">{label}</h2>

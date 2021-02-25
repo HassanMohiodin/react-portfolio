@@ -1,0 +1,47 @@
+.description {
+    font-size: 1.3rem;
+    line-height: 1.5em;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 9vw 0 9vw;
+    /* line-height: 2em; */
+}
+
+.image {
+    max-width: 100%;
+    height: 500px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3em 9vw 3em 9vw;
+    color: #1b2b2b;
+}
+
+.project-heading {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 0.2em;
+    color: rgb(26, 25, 25);
+}
+
+.project-description-short {
+    font-size: 1.3rem;
+}
+
+.link {
+    color: rgb(80, 80, 224);
+    text-decoration: underline;
+}
+
+.head-2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+}

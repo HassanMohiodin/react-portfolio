@@ -1,5 +1,7 @@
 import react from 'react';
 import {Route, Switch} from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
+
 
 import Header from '../component/header/header';
 import Cover from '../component/cover/cover';
@@ -7,8 +9,9 @@ import CardList from '../component/cardlist/cardList';
 import Footer from '../component/footer/footer';
 import ProjectPages from '../pages/projectPages/projectPages';
 import SmallCover from '../component/smallCover/smallCover';
-import News from '../pages/news/news';
+import Page from '../component/project/project';
 import TagPage from '../pages/tag/tag';
+import SocialBar from '../component/socialBar/socialBar'
 
 function Layout (props) {
     return (
@@ -22,7 +25,13 @@ function Layout (props) {
             <Route exact path='/projects'>
                 <Header/>
                 <SmallCover/>
-                <News/>
+                <CardList/>
+                <Footer/>
+            </Route>
+            <Route exact path='/:id'>
+                <Header/>
+                <SmallCover/>
+                <Page />
                 <Footer/>
             </Route>
             <Route exact path='/test'>
@@ -39,4 +48,4 @@ function Layout (props) {
     )
 }
 
-export default Layout;
+export default withRouter(Layout);

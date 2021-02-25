@@ -16,10 +16,17 @@
     font-size: 55px;
     margin: 0;
     padding: 0;
+    letter-spacing: 0.1em;
+    margin-right: 6vw;
+    margin-left: 6vw;
 }
 
 .heading-2 {
     font-size: 20px;
     font-weight: 400;
     color: grey;
+    text-align: center;
+    line-height: 1.6em;
+    margin-right: 9vw;
+    margin-left: 9vw;
 }
