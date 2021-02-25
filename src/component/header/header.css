@@ -1,0 +1,30 @@
+.topnav {
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    padding-bottom: 2px; 
+    background-color: rgb(12, 12, 12);
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: white;
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }

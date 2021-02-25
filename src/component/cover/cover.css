@@ -1,0 +1,25 @@
+.container {
+    background-image: url('../../images/portfolio-cover.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.heading-1 {
+    text-align: center;
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+}

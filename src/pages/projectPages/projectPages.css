@@ -1,0 +1,15 @@
+.small-cover{
+    height: 150px;
+    width: 100%;
+    background-image: url('../../images/portfolio-cover.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.head-1{
+    margin-top: 0;
+    padding: 2em 0 0 2em;
+    font-weight: 600;
+    color: white;
+    font-size: 35px;
+}
