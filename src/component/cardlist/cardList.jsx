@@ -1,11 +1,11 @@
-import react from 'react';
+import React from 'react';
 import Card from '../card/card';
 
 import cardData from '../../data';
 
 import './cardList.css';
 
-class CardList extends react.Component {
+class CardList extends React.Component {
     constructor (){
         super(); 
         this.state = {

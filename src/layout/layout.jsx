@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import { withRouter } from 'react-router-dom';
 
@@ -11,40 +11,40 @@ import ProjectPages from '../pages/projectPages/projectPages';
 import SmallCover from '../component/smallCover/smallCover';
 import Page from '../component/project/project';
 import TagPage from '../pages/tag/tag';
-import SocialBar from '../component/socialBar/socialBar'
+import AboutCover from '../component/aboutCover/aboutCover';
+import AboutDetails from '../component/aboutDetails/aboutDetails';
+import Form from '../component/form/form';
 
 function Layout (props) {
     return (
+        <>
+        <Header/>
         <Switch>
-            <Route exact path='/tag'>
-                <Header/>
-                <SmallCover/>
-                <TagPage/>
-                <Footer/>
+            <Route exact path='/contact'>
+                <Form/>
+            </Route>
+            <Route exact path='/about'>
+                <AboutCover/>
+                <AboutDetails/>
             </Route>
             <Route exact path='/projects'>
-                <Header/>
                 <SmallCover/>
                 <CardList/>
-                <Footer/>
             </Route>
             <Route exact path='/:id'>
-                <Header/>
                 <SmallCover/>
                 <Page />
-                <Footer/>
             </Route>
             <Route exact path='/test'>
-                <Header/>
                 <ProjectPages/>
             </Route>
             <Route path='/'>
-                <Header/>
                 <Cover/>
                 <CardList/>
-                <Footer/>
             </Route>
        </Switch>
+       <Footer/>
+       </>
     )
 }
 

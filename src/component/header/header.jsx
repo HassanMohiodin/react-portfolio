@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './header.css';
@@ -17,10 +17,10 @@ function Header (props) {
                         <a href="#news">Projects</a>
                         </div>
                     </Link>
-                    <Link to="/tag">    
-                        <a href="#contact">Tag</a>
+                    <Link to="/contact">    
+                        <a href="#contact">Contact</a>
                     </Link>
-                    <a href="javascript:void(0);" className="icon" onclick="myFunction()">
+                    <a href="#icon" className="icon">
                         <i className="fa fa-bars"></i>
                     </a>
                 </div>        

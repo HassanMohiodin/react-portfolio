@@ -1,0 +1,58 @@
+.contact-container {
+    display: flex;
+}
+
+.class-desc {
+    margin-left: 4em;
+    line-height: 1.6em;
+    font-weight: 500;
+    margin-right: 6em;
+}
+
+.contact-info{
+    padding-top: 3em;
+    /* background-image: url('https://gatsby.ghost.io/content/images/2019/01/headless-ghost.png');
+    background-size: cover;
+    background-position: center; */
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+}
+
+.heading-contact {
+    margin-left: 2em;
+}
+.form {
+    width: 50%;
+    background-color: rgb(230, 230, 230);
+}
+
+.name-section {
+    padding: 1em 2em 1em 2em;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;  
+}
+
+.btn {
+    margin-top: 1em;
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+.input{
+    margin-top: 0.5em;
+    width: 90%;
+    background-color: transparent;
+    border-color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-container {
+      flex-direction: column;
+    }
+    .form{
+        width: 100%;
+    }
+  }

@@ -9,9 +9,9 @@ function Page (props) {
     let key = props.match.params.id;
     let data = cardData.data[key-1];
 
-    return (
+    return ( 
         <div className="image-container">
-            <img className="image" src={`${data.imageUrl}`} alt="The Image url Provided is not present here."/>
+            <img className="image" src={`${data.imageUrl}`} alt={'This is Placeholder'}/>
             <div className="description-container">
                 <h1 className="project-heading">{data.label}</h1>
                 <p className="project-description-short">
@@ -21,7 +21,7 @@ function Page (props) {
                 <p className="description">
                     {data.description}
                 </p>
-                <img className="image" src={`${data.imageUrl2}`} alt="The Image url Provided is not present here."/>
+                <img className="image" src={`${data.imageUrl2}`} alt={'This is Placeholder'}/>
                 <p className="description">{data.shortDescription}</p>
             </div>
         </div>

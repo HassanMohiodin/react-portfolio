@@ -1,9 +1,9 @@
-import react from 'react';
+import React from 'react';
 
 import SmallCover from '../../component/smallCover/smallCover';
 import './projectPages.css';
 
-class Page extends react.Component {
+class Page extends React.Component {
     constructor() {
         super();
         this.state={};

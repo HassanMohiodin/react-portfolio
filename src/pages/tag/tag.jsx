@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import CardList from '../../component/cardlist/cardList';
 
 import './tag.css'

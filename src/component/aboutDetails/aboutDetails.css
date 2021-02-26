@@ -1,0 +1,21 @@
+.headding-1{
+    margin: 0;
+    padding-top: 0.7em;
+    font-weight: 600;
+    color: black;
+    font-size: 35px;
+}
+
+.about-description-short {
+    font-size: 1.3rem;
+    color: #1b2b2b;
+}
+
+.block{
+    margin: 3em 16vw 3em 16vw;
+}
+
+.image-about {
+    max-width: 100%;
+    height: 500px;
+}

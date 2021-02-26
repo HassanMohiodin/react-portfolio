@@ -1,6 +1,4 @@
 import React from 'react';
-import { SocialIcon } from 'react-social-icons';
-import socialIcon from 'react-social-icons/dist/social-icon';
 
 import SocialBar from '../socialBar/socialBar';
 
